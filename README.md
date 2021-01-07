@@ -10,7 +10,7 @@ Or decompress webdriverio-test.rar. After entering the file directory, execute t
 
 2.Run the automation testing by *$ npx wdio wdio.conf.js* command.
 
-**Some other operations**
+**Some Other Operations**
 1.For first running, 
 For the first run, it should be added *browser.pause(60000)* to make the browser have enough time to manually operate the first registration and the mobile phone verification process to reach the signup address page so that the operation record can be saved in the target folder of the test browser. Or if the local chrome user file has already been recorded in the chrome profile folder, copy it directly to the target folder of the test browser.
 
